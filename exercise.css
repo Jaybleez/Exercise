@@ -1,0 +1,25 @@
+.mcar{
+    display: flex;
+    position:relative;
+    top: -110px;
+    animation-name: car;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-fill-mode: both;
+    
+}
+.vech2{
+    position:absolute;
+    top:-900px;
+}
+
+@keyframes car{
+    from{
+        transform: translateX(O)
+    }
+    to{
+        transform: translateX(1200px);
+    }
+}
+
